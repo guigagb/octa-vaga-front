@@ -15,19 +15,19 @@
 		</v-app-bar>
 
 		<v-main>
-			<HelloWorld />
+			<Main />
 		</v-main>
 	</v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Main from "./views/main/main";
 
 export default {
 	name: "App",
 
 	components: {
-		HelloWorld,
+		Main,
 	},
 
 	data: () => ({
@@ -35,3 +35,6 @@ export default {
 	}),
 };
 </script>
+
+<style lang="sass">
+</style>
